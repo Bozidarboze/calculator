@@ -1,0 +1,20 @@
+.btn {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:active {
+    background-color: rgba(128, 128, 128, 0.25);
+  }
+}
+
+.big-row {
+  grid-column: 1 / span 2;
+}
+
+.big-column {
+  grid-column: 4;
+  grid-row: 4 / span 2;
+}
